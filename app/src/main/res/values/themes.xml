@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="MojJasny.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MojJasny.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MojJasny.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

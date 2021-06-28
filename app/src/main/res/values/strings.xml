@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">App Master</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">JediSebas</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ustawienia</string>
+
+    <!-- Wszystko z buttonami i et i tv -->
+    <string name="count">Oblicz</string>
+    <string name="result">Wynik</string>
+    <string name="digits">Wpisz cyfry np. 44536</string>
+    <string name="clean">Usuwanie zawartości</string>
+    <string name="a">a</string>
+    <string name="b">b</string>
+    <string name="c">c</string>
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="C">C</string>
+    <string name="x">x</string>
+    <string name="y">y</string>
+    <string name="x1">x1</string>
+    <string name="x2">x2</string>
+    <string name="y1">y1</string>
+    <string name="y2">y2</string>
+    <string name="nr1">Nr1</string>
+    <string name="nr2">Nr2</string>
+    <string name="nr3">Nr3</string>
+    <string name="nr4">Nr4</string>
+    <string name="nr5">Nr5</string>
+    <string name="nr6">Nr6</string>
+    <string name="clear">czyść</string>
+    <string name="traf">"trafienia: "</string>
+    <string name="los">losuj</string>
+    <string name="check">sprawdź</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="alphabet">Wyświetl alfabet</string>
+    <string name="rights">
+        "Font made by Pixel Sagas\n"
+        "Page: https://www.dafont.com/aurebesh.font\n"
+    </string>
+    <string name="replace">Zamień</string>
+    <string name="sth">napisz cos tutaj</string>
+    <string name="ipEt">adres IP np. 192.168.1.10</string>
+    <string name="mascEt">maska np. 255.255.255.128 lub /25</string>
+    <string name="div">na ile podsieci podzielić np. 2</string>
+    <string name="dec">wartość decymalna np. 15</string>
+    <string name="bin">wartość binarna np. 1111</string>
+    <string name="oct">wartość oktalna np. 17</string>
+    <string name="hex">wartość hexadecymalna np. F</string>
+    <string name="zm">wartość znak-moduł np. 01111</string>
+    <string name="uo">wartość zapis uzupełnień do 1 np. 10000</string>
+    <string name="ut">wartość zapis uzupełnień do 2 np. 100001</string>
+    <string name="settitle">Motyw</string>
+    <string name="on">Ciemny motyw</string>
+    <string name="off">Jasny motyw</string>
+    <string name="setchange">Przełącz motyw</string>
+    <string name="save">Zapisz</string>
+    <string name="date">Wybierz datę</string>
+    <string name="hour">Wybierz godzinę</string>
+    <string name="notiftitle">Tytuł powiadomienia</string>
+    <string name="notifsubtitle">Podtytuł powiadomienia</string>
+    <string name="szyfruj">zaszyfruj / odszyfruj</string>
+    <string name="rot13org">Tekst nieszyfrowany</string>
+    <string name="rot13ciphred">Grxfg fmlsebjnal (Tekst szyfrowany)</string>
+    <string name="viegener">Szyfr Vigenère\'a</string>
+    <string name="viegCiphred">Ćjgbz óhbćąśśkru (Tekst szyfrowany)</string>
+    <string name="viegKey">Klucz np. key</string>
+    <string name="copying">Skopiuj do schowka</string>
+
+
+    <!-- Nazwy activity -->
+    <string name="menu_home">Home</string>
+    <string name="title_activity_average">Średnia</string>
+    <string name="title_activity_liniowa">Funkcja liniowa</string>
+    <string name="title_activity_kwadratowa">Funkcja kwadratowa</string>
+    <string name="title_activity_lotto">Lotto</string>
+    <string name="title_activity_generliczb">Generator liczb</string>
+    <string name="title_activity_aurebesh">Aurebesh</string>
+    <string name="title_activity_podsieci">Podsieci</string>
+    <string name="title_activity_systemyliczb">Systemy liczbowe</string>
+    <string name="menu_contact">Kontakt</string>
+    <string name="title_activity_calendar">Wydarzenia</string>
+    <string name="title_activity_settings">Ustawienia</string>
+    <string name="title_activity_crypto">Szyfrowanie</string>
+
+    <!-- Opisy fragmentu -->
+    <string name="description_home">Aplikacja ta ma wiele fragmenów o różnych zadaniach. Od
+    wyliczenia średniej z cyfr, po podział sieci na podsieci. Menu znajduje się w lewym górnym rogu.</string>
+    <string name="description_average">Ten fragment służy do wyliczenia średniej z cyfr podanych
+        ciągiem. Idealnie się nadaje, gdy trzeba policzyć średnią ocen na koniec roku.</string>
+    <string name="description_liniowa">Ten fragment służy do obliczenia zadań z zakresu funkcji liniowej. </string>
+    <string name="description_kwadratowa">Ten fragment służy do obliczenia pierwiastków funkcji kwadratowej.</string>
+    <string name="description_lotto">Ten fragment służy do gry w Lotto. Polega na zgadnięciu
+    6 wylosowanych liczb.</string>
+    <string name="description_generliczb">Ten fragment służy do generowania różnych liczb, np.
+    losowych, liczb pierwszych, liczb z Ciągu Fibbonaciego itp.</string>
+    <string name="description_aurebesh">Ten fragment służy do tłumaczenia tekstu z alfabetu
+    łacińskiego na alfabet Aurebesh używany w uniwersum Gwiezdnych Wojen.</string>
+    <string name="description_podsieci">Ten fragment służy do łatwego podziału sieci na podsieci.</string>
+    <string name="description_systemyliczb">Ten fragment służy do zamiany liczb na różne systemy liczbowe.
+    Zawarte są tu te najpopularniejsze cztery (bin, oct, dec, hex) oraz zapisy liczb binarnych.</string>
+    <string name="description_contact">Jeśli zauważysz jakiś błąd lub masz propozycje na dalszy rozwój
+    aplikacji, skontaktuj się z nami w linku poniżej.</string>
+    <string name="description_calendar">Ten fragment służy do przypominania o pewnym wydarzeniu o wybranej godzinie.</string>
+    <string name="description_crypto">Ten fragment służy do szyfrowania i deszyfrowania łańcuchów znaków.
+    Wykorzystuje szyfr Cezara oraz zmodyfikowany szyfr Vigenère\'a</string>
+
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+</resources>

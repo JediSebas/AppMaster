@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/decEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:hint="@string/dec"
+            android:autofillHints="@string/dec"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/binEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:digits="01"
+            android:inputType="number"
+            android:hint="@string/bin"
+            android:autofillHints="@string/bin"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/sysliczb2Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/count" />
+
+        <Button
+            android:id="@+id/sysliczb2clearBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/clear" />
+
+        <EditText
+            android:id="@+id/octEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:digits="01234567"
+            android:inputType="number"
+            android:hint="@string/oct"
+            android:autofillHints="@string/oct"
+            android:layout_marginTop="40dp"/>
+
+        <EditText
+            android:id="@+id/hexEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:digits="0123456789ABCDEF"
+            android:inputType="textCapCharacters"
+            android:hint="@string/hex"
+            android:autofillHints="@string/hex"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

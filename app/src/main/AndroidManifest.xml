@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jedisebas.appmaster">
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MojJasny">
+        <activity
+            android:name=".ui.crypto.CryptoActivity"
+            android:label="@string/title_activity_crypto"
+            android:theme="@style/MojJasny.NoActionBar" />
+        <activity
+            android:name=".ui.calendar.CalendarActivity"
+            android:label="@string/title_activity_calendar"
+            android:theme="@style/MojJasny.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".ui.systemyliczbowe.SystemyliczbActivity"
+            android:label="@string/title_activity_systemyliczb"
+            android:theme="@style/JasnyZMotywem" />
+        <activity
+            android:name=".ui.podsieci.PodsieciActivity"
+            android:label="@string/title_activity_podsieci"
+            android:theme="@style/JasnyZMotywem" />
+        <activity
+            android:name=".ui.aurebesh.AurebeshActivity"
+            android:label="@string/title_activity_aurebesh"
+            android:theme="@style/JasnyZMotywem" />
+        <activity
+            android:name=".ui.generliczb.GenerliczbActivity"
+            android:label="@string/title_activity_generliczb"
+            android:theme="@style/JasnyZMotywem" />
+        <activity
+            android:name=".ui.lotto.LottoActivity"
+            android:label="@string/title_activity_lotto"
+            android:theme="@style/JasnyZMotywem" />
+        <activity
+            android:name=".ui.funkcjakwadratowa.KwadratowaActivity"
+            android:label="@string/title_activity_kwadratowa"
+            android:theme="@style/JasnyZMotywem" />
+        <activity
+            android:name=".ui.funkcjaliniowa.LiniowaActivity"
+            android:label="@string/title_activity_liniowa"
+            android:theme="@style/JasnyZMotywem" />
+        <activity
+            android:name=".ui.average.AverageActivity"
+            android:label="@string/title_activity_average"
+            android:theme="@style/JasnyZMotywem" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/JasnyZMotywem">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".ui.calendar.ui.main.MyReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service
+            android:name=".ui.calendar.ui.main.MyIntentService"
+            android:exported="false" />
+    </application>
+
+</manifest>

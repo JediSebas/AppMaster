@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.jedisebas.appmaster.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <activity
+        android:id="@+id/nav_average"
+        android:name="com.jedisebas.appmaster.ui.average.AverageActivity"
+        android:label="@string/title_activity_average"
+        tools:layout="@layout/activity_average"/>
+
+    <activity
+        android:id="@+id/nav_liniowa"
+        android:name="com.jedisebas.appmaster.ui.funkcjaliniowa.LiniowaActivity"
+        android:label="@string/title_activity_liniowa"
+        tools:layout="@layout/activity_liniowa"/>
+
+    <activity
+        android:id="@+id/nav_kwadratowa"
+        android:name="com.jedisebas.appmaster.ui.funkcjakwadratowa.KwadratowaActivity"
+        android:label="@string/title_activity_kwadratowa"
+        tools:layout="@layout/activity_kwadratowa"/>
+
+    <activity
+        android:id="@+id/nav_lotto"
+        android:name="com.jedisebas.appmaster.ui.lotto.LottoActivity"
+        android:label="@string/title_activity_lotto"
+        tools:layout="@layout/activity_lotto"/>
+
+    <activity
+        android:id="@+id/nav_generliczb"
+        android:name="com.jedisebas.appmaster.ui.generliczb.GenerliczbActivity"
+        android:label="@string/title_activity_generliczb"
+        tools:layout="@layout/activity_generliczb"/>
+
+    <activity
+        android:id="@+id/nav_aurebesh"
+        android:name="com.jedisebas.appmaster.ui.aurebesh.AurebeshActivity"
+        android:label="@string/title_activity_aurebesh"
+        tools:layout="@layout/activity_aurebesh"/>
+
+    <activity
+        android:id="@+id/nav_podsieci"
+        android:name="com.jedisebas.appmaster.ui.podsieci.PodsieciActivity"
+        android:label="@string/title_activity_podsieci"
+        tools:layout="@layout/activity_podsieci"/>
+
+    <activity
+        android:id="@+id/nav_systemyliczb"
+        android:name="com.jedisebas.appmaster.ui.systemyliczbowe.SystemyliczbActivity"
+        android:label="@string/title_activity_systemyliczb"
+        tools:layout="@layout/activity_systemyliczb"/>
+
+    <activity
+        android:id="@+id/nav_calendar"
+        android:name="com.jedisebas.appmaster.ui.calendar.CalendarActivity"
+        android:label="@string/title_activity_calendar"
+        tools:layout="@layout/activity_calendar"/>
+
+    <activity
+        android:id="@+id/nav_crypto"
+        android:name="com.jedisebas.appmaster.ui.crypto.CryptoActivity"
+        android:label="@string/title_activity_crypto"
+        tools:layout="@layout/activity_crypto"/>
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.jedisebas.appmaster.ui.contact.ContactFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contact" />
+</navigation>
